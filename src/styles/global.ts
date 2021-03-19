@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
 :root{
     --background: #f0f2f5;
     --red: #E52E4D;
+    --green: #33cc95;
     --blue: #5429CC;
 
     --blue-light:#6933FF;
@@ -36,13 +37,14 @@ body{
     background: var(--background);
     -webkit-font-smoothing: antialiased; //better looking fonts
 }
-body,input,textarea,button{
+body, input,textarea,button,p{
     font-family: 'Poppins', sans-serif;
     font-weight:400;
 }
 h1,h2,h3,h4,h5,h6,strong{
     font-weight:600;
-    color: var(--red);
+    font-family: 'Poppins', sans-serif;
+    //color: var(--text-title);
 }
 
 
