@@ -37,13 +37,13 @@ body{
     background: var(--background);
     -webkit-font-smoothing: antialiased; //better looking fonts
 }
-body, input,textarea,button,p{
-    font-family: 'Poppins', sans-serif;
+body, input,textarea,button,p,table{
+    font-family:'Poppins', sans-serif;
     font-weight:400;
 }
 h1,h2,h3,h4,h5,h6,strong{
     font-weight:600;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif;
     //color: var(--text-title);
 }
 
